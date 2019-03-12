@@ -9,19 +9,23 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>Friends</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
-        <div class="header__column"></div>
-        <i class="fa fa-plane"></i> <i class="fa fa-wifi"></i>
-      </div>
-      <div class="header__column"><span class="header__time">18:38</span></div>
-      <div class="header__column">
-        <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
-        <span class="header__battery"
-          >66% <i class="fa fa-battery-full"></i
-        ></span>
+        <div class="header__column">
+          <i class="fa fa-plane"></i> <i class="fa fa-wifi"></i>
+        </div>
+        <div class="header__column">
+          <span class="header__time">18:38</span>
+        </div>
+        <div class="header__column">
+          <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
+          <span class="header__battery"
+            >66% <i class="fa fa-battery-full"></i
+          ></span>
+        </div>
       </div>
       <div class="header__bottom">
         <div class="header__column">
@@ -46,10 +50,8 @@
         </header>
         <div class="friends__section-rows">
           <div class="friends__section-row">
-            <a href="profile.html">
-              <img src="images/avatar.jpg" alt="" />
-              <span class="friends__section-name">momo</span>
-            </a>
+            <img src="images/avatar.jpg" alt="" />
+            <a href="profile.html" class="friends__section-name"> momo </a>
           </div>
           <div class="friends__section-row">
             <img src="images/avatar.jpg" alt="" />
@@ -62,7 +64,7 @@
           <h6 class="friends__section-title"></h6>
         </header>
         <div class="friends__section-rows">
-          <div class="friends__section-row">
+          <div class="friends__section-row with-tagline">
             <div class="friends__section-column">
               <img src="images/avatar.jpg" alt="" />
               <span class="friends__section-name">momo</span>

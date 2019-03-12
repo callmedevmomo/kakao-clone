@@ -9,19 +9,23 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>More</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
-        <div class="header__column"></div>
-        <i class="fa fa-plane"></i> <i class="fa fa-wifi"></i>
-      </div>
-      <div class="header__column"><span class="header__time">18:38</span></div>
-      <div class="header__column">
-        <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
-        <span class="header__battery"
-          >66% <i class="fa fa-battery-full"></i
-        ></span>
+        <div class="header__column">
+          <i class="fa fa-plane"></i> <i class="fa fa-wifi"></i>
+        </div>
+        <div class="header__column">
+          <span class="header__time">18:38</span>
+        </div>
+        <div class="header__column">
+          <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
+          <span class="header__battery"
+            >66% <i class="fa fa-battery-full"></i
+          ></span>
+        </div>
       </div>
       <div class="header__bottom">
         <div class="header__column"></div>
@@ -42,19 +46,19 @@
       </header>
       <section class="more__options">
         <!-- div.more__options*4>i.fa+span.more__option-title -->
-        <div class="more__options">
+        <div class="more__option">
           <i class="fa fa-smile-o fa-2x"></i>
           <span class="more__option-title">Emoticons</span>
         </div>
-        <div class="more__options">
-          <i class="fa fa-paint-brush fa-lg"></i>
+        <div class="more__option">
+          <i class="fa fa-paint-brush fa-2x"></i>
           <span class="more__option-title">Themes</span>
         </div>
-        <div class="more__options">
+        <div class="more__option">
           <i class="fa fa-hand-peace-o fa-2x"></i>
           <span class="more__option-title">Hand-piece</span>
         </div>
-        <div class="more__options">
+        <div class="more__option">
           <i class="fa fa-user-circle-o fa-2x"></i>
           <span class="more__option-title">Account</span>
         </div>
@@ -101,7 +105,7 @@
           </div>
         </div>
       </section>
-      <section class="more__options">
+      <section class="more__links">
         <div class="more__option">
           <img src="images/kakaoStory.png" alt="" class="more__options" />
           <span class="more__options-title">KaKao Story</span>
